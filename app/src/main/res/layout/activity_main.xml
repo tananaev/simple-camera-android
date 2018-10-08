@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tananaev.simplecamera.CameraActivity">
-
-    <com.tananaev.simplecamera.AutoFitTextureView
-        android:id="@+id/texture_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    tools:context="com.tananaev.simplecamera.MainActivity">
 
     <ImageView
-        android:id="@+id/capture_button"
+        android:id="@+id/image_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:src="@drawable/ic_camera_white_48dp" />
+        android:text="@string/button" />
 
 </RelativeLayout>

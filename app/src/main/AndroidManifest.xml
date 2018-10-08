@@ -15,9 +15,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".CameraActivity"
-            android:screenOrientation="portrait"
-            android:configChanges="orientation|screenSize">
+            android:name=".MainActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +23,16 @@
             </intent-filter>
 
         </activity>
+
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name=".Camera2Activity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize" />
 
     </application>
 
